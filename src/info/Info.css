@@ -12,6 +12,15 @@
     text-align: center 
 }
 
+.icon-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #3a3a3a;
+    letter-spacing: .5px;
+    margin: 10px 50px 10px 50px;
+}
+
 .content-icon {
     background-color: #A5FFE6;    
     padding-top: 30px;
@@ -24,4 +33,54 @@
 
 .graph-info {
     margin-bottom: 50px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #173042;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 2.5px;
+    margin: 50px 0px 20px 0px;
+}
+
+.text-what-is {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3A3A3A;
+    letter-spacing: .57px;
+    line-height: 20px;
+}
+
+.list-what-is {
+    margin-top: 30px;
+}
+
+.cita {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #12CDC1;
+    letter-spacing: .41px;
+    text-align: right;
+    margin-top: 130px;
+}
+
+.author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3a3a3a;
+    letter-spacing: .53px;
+    line-height: 20px;
+    text-align: right;        
+}
+
+.cargo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: .46px;
+    line-height: 20px;
+    text-align: right;    
 }

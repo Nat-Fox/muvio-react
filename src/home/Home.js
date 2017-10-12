@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import {
-    Navbar, Nav, NavItem, NavDropdown, MenuItem, Button, ButtonToolbar, Grid, Row, Col, ResponsiveEmbed
+    Navbar,
+    Nav,
+    NavItem,
+    NavDropdown, MenuItem, Button, ButtonToolbar, Grid, Row, Col, ResponsiveEmbed
 } from 'react-bootstrap';
 import './Home.css'
 
@@ -17,15 +20,15 @@ class Home extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem className="item-nav" eventKey={1} href="#">Link1</NavItem>
-                            <NavItem className="item-nav" eventKey={2} href="#">Link2</NavItem>
-                            <NavItem className="item-nav" eventKey={3} href="#">Link2</NavItem>
-                            <NavItem className="item-nav" eventKey={4} href="#">Link2</NavItem>
+                            <NavItem className="item-nav" eventKey={1} href="#">BENEFICIOS</NavItem>
+                            <NavItem className="item-nav" eventKey={2} href="#">PRODUCTO</NavItem>
+                            <NavItem className="item-nav" eventKey={3} href="#">PLANES</NavItem>
+                            <NavItem className="item-nav" eventKey={4} href="#">NOSOTROS</NavItem>
                         </Nav>
                         <Nav pullRight>
                             <NavItem eventKey={1} href="#">
                                 <ButtonToolbar>
-                                    <Button>Default</Button>
+                                    <Button className="btn-login">Login</Button>
                                 </ButtonToolbar>
                             </NavItem>
                         </Nav>
@@ -50,9 +53,9 @@ class Home extends Component {
                     <Row>
                         <Col xs={8} xsOffset={2} md={8} mdOffset={2}>
                             <div className="text-home">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                Con Muvio visualiza y descarga viajes en la ciudad de manera rápida, fácil y representativa
                                 <ButtonToolbar className="btn-test">
-                                    <Button>Default</Button>
+                                    <Button className="btn-home">Ir a la versión de prueba</Button>
                                 </ButtonToolbar>
                             </div>
                         </Col>
