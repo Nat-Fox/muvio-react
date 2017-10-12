@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import Home from './Home';
-// import logo from './logo.svg';
-// import './App.css';
+import Home from './home/Home';
+import Info from './info/Info';
+
+
 
 class App extends Component {
   render() {
     return (
-      <Home />
+      <div>
+        <Home />
+        <Info />
+
+      </div>
     );
   }
 }

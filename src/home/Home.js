@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     Navbar, Nav, NavItem, NavDropdown, MenuItem, Button, ButtonToolbar, Grid, Row, Col, ResponsiveEmbed
 } from 'react-bootstrap';
-import './Home.css';
+import './Home.css'
 
 class Home extends Component {
     render() {
@@ -51,6 +51,9 @@ class Home extends Component {
                         <Col xs={8} xsOffset={2} md={8} mdOffset={2}>
                             <div className="text-home">
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                <ButtonToolbar className="btn-test">
+                                    <Button>Default</Button>
+                                </ButtonToolbar>
                             </div>
                         </Col>
                     </Row>
