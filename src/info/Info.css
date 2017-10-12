@@ -33,6 +33,7 @@
 
 .graph-info {
     margin-bottom: 50px;
+    text-align: right;
 }
 
 .title {
@@ -45,7 +46,8 @@
     margin: 50px 0px 20px 0px;
 }
 
-.text-what-is {
+.text-what-is,
+.text-graph {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #3A3A3A;

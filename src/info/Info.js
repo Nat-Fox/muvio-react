@@ -66,35 +66,36 @@ class Info extends Component {
                 <div className="info-graph">
                     <Grid>
                         <Row>
-                            <Col xs={12} md={6}>
-                                text 1
+                            <Col xs={12} md={4}>
+                                <div className="title">Información clave en un solo lugar</div>
+                                <div className="text-graph">
+                                    Analiza patrones y peaks de viajes dentro de una ciudad o entre ellas. Visualiza comportamientos de viajes en un período de tiempo entre el origen y destino que escojas.
+                                </div>
                             </Col>
-                            <Col xs={12} md={6}>
-                                <Image className="graph-info" src="http://via.placeholder.com/500x350" responsive />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} md={6}>
-                                text 2
-                            </Col>
-                            <Col xs={12} md={6}>
-                                <Image className="graph-info" src="http://via.placeholder.com/500x350" responsive />
+                            <Col xs={12} md={8}>
+                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs={12} md={6}>
-                                text 3
+                            <Col xs={12} md={4}>
+                                <div className="title">Resultados a tu medida</div>
+                                <div className="text-graph">
+                                    Personaliza tu consulta escogiendo período de tiempo, origen y destino que deseas visualizar.
+                                </div>
                             </Col>
-                            <Col xs={12} md={6}>
-                                <Image className="graph-info" src="http://via.placeholder.com/500x350" responsive />
+                            <Col xs={12} md={8}>
+                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs={12} md={6}>
-                                text 4
+                            <Col xs={12} md={4}>
+                                <div className="title">Información que se adapta a tus necesidades</div>
+                                <div className="text-graph">
+                                    Descarga gráficos y matrices de movilidad entre origen y destino en formato pdf o excel para integrarlo con tus herramientas de siempre.
+                                </div>
                             </Col>
-                            <Col xs={12} md={6}>
-                                <Image src="http://via.placeholder.com/500x350" responsive />
+                            <Col xs={12} md={8}>
+                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
                             </Col>
                         </Row>
                     </Grid>
