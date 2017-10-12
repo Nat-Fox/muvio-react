@@ -1,0 +1,36 @@
+.logo {
+    margin: 10px 100px 0px 0px;    
+}
+
+.item-nav {
+    margin: 10px 50px 0px 50px;
+}
+
+.text-home {
+    margin-top: 250px;
+    text-align: center
+}
+
+/* Mobile */
+@media only screen and (min-width: 1px) and (max-width: 480px) { 
+    .text-home {
+        margin-top: 120px;
+        text-align: center
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+    .logo {
+        margin: 10px 30px 0px 0px;    
+    }
+    .item-nav {
+        margin: 10px 30px 0px 30px;
+    }
+}
+
+/* Pantallas normales */  
+@media only screen and (min-width: 1025px) and (max-width: 1281px) { }
+
+/* Pantallas grandes */
+@media only screen and (min-width: 1282px ){ }
