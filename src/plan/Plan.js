@@ -1,0 +1,54 @@
+import React, { Component } from 'react';
+import { Grid, Row, Col, ListGroup, ListGroupItem, ButtonToolbar, Button } from 'react-bootstrap';
+import './Plan.css';
+
+class Plan extends Component {
+    render() {
+        return (
+            <div className="content-plans">
+                <Grid fluid>
+                    <Row className="show-grid">
+                        <Col sm={2} md={2}>
+                            <div className="title-plan">Planes</div>
+                            <div className="item">Caducidad</div>
+                            <div className="item">Santiago - Valparaíso</div>
+                            <div className="item">Ciudades &gt;= 200K hab.</div>
+                            <div className="item">Ciudades &lt; 200K hab.</div>
+                            <div className="item">Intervalo Data Set</div>
+                            <div className="item">Guardar consultas</div>
+                            <div className="item">Descargas</div>
+                        </Col>
+                        <Col sm={2} md={2} className="first-column">
+                            <div className="title-first">Versión de Prueba</div>
+                            <div className="content-column">1 semana</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">La Serena</div>
+                            <div className="content-column">1 semana</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">-</div>
+                            <ButtonToolbar className="content-btn">
+                                <Button className="btn-test-plan">Ir a versión de prueba</Button>
+                            </ButtonToolbar>
+                        </Col>
+                        <Col sm={2} md={2} className="second-column">
+                            <div className="title-second">Emprendimiento</div>
+                        </Col>
+                        <Col sm={2} md={2} className="third-column">
+                            <div className="title-third">Profesional</div>
+                        </Col>
+                        <Col sm={2} md={2} className="fourth-column">
+                            <div className="title-fourth">Empresa</div>
+                        </Col>
+                        <Col sm={2} md={2} className="fifth-column">
+                            <div className="title-fifth">Personalizado</div>
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
+        );
+    }
+}
+
+
+export default Plan;
