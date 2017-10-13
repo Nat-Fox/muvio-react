@@ -7,6 +7,7 @@
     height: 450px;
 }
 
+
 .title-plan {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -87,6 +88,15 @@
     text-align: center;
 }
 
+.content-column-fifth {
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: .42px;
+    line-height: 40px;
+    text-align: center;
+}
+
 .first-column,
 .second-column,
 .third-column,
@@ -94,7 +104,7 @@
     margin-top: 102px;
     margin-bottom: 20px;
     background-color: #FFFFFF;
-    height: 400px;    
+    height: 520px;    
     -webkit-box-shadow: 4px 6px 14px 0px rgba(50, 50, 50, 0.86);
     -moz-box-shadow:    4px 6px 14px 0px rgba(50, 50, 50, 0.86);
     box-shadow:         4px 6px 14px 0px rgba(50, 50, 50, 0.86);
@@ -104,7 +114,7 @@
     margin-top: 102px;
     margin-bottom: 20px;
     background-color: #31a7e8;
-    height: 400px;    
+    height: 520px;    
     -webkit-box-shadow: 4px 6px 14px 0px rgba(50, 50, 50, 0.86);
     -moz-box-shadow:    4px 6px 14px 0px rgba(50, 50, 50, 0.86);
     box-shadow:         4px 6px 14px 0px rgba(50, 50, 50, 0.86);
@@ -121,7 +131,10 @@
     letter-spacing: .42px;
     border: 1px solid #31a7e8;
     border-radius: 1px;    
-    width: 95%;    
+    width: 90%;    
+    position: absolute;
+    bottom:20px;
+    right: 10px;
 }
 
 .btn-test-plan:hover {
@@ -129,3 +142,40 @@
     color: #31A7E8;
 }
 
+.btn-want {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #31a7e8;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: .42px;
+    border-radius: 1px;    
+    width: 90%;    
+    position: absolute;
+    bottom:20px;
+    right: 10px;
+}
+
+.btn-want:hover {
+    background-color: #337ab7;
+    color: #FFFFFF;
+}
+
+.btn-want-fifth {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #173042;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: .42px;
+    border-radius: 1px;    
+    width: 90%;    
+    position: absolute;
+    bottom:20px;
+    right: 10px;
+    border: none;
+}
+
+.btn-want-fifth:hover {
+    background-color: #31a7e8;
+    color: white;
+    border: 1px solid white;    
+}

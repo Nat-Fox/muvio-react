@@ -33,15 +33,65 @@ class Plan extends Component {
                         </Col>
                         <Col sm={2} md={2} className="second-column">
                             <div className="title-second">Emprendimiento</div>
+                            <div className="content-column">6 meses</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">1</div>
+                            <div className="content-column">2° semestre 2015</div>
+                            <div className="content-column">Sí</div>
+                            <div className="content-column">Imagen resultados</div>
+                            <div className="content-column">Imagen matriz origen/destino</div>
+                            <ButtonToolbar className="content-btn">
+                                <Button className="btn-want">Lo quiero</Button>
+                            </ButtonToolbar>
                         </Col>
                         <Col sm={2} md={2} className="third-column">
                             <div className="title-third">Profesional</div>
+                            <div className="content-column">1 año</div>
+                            <div className="content-column">-</div>
+                            <div className="content-column">1</div>
+                            <div className="content-column">3</div>
+                            <div className="content-column">Año 2015</div>
+                            <div className="content-column">Sí</div>
+                            <div className="content-column">Imagenes resultados</div>
+                            <div className="content-column">Imagen matriz origen/destino</div>
+                            <div className="content-column">Excel resultados</div>
+                            <div className="content-column">Excel matriz origen/destino</div>
+                            <ButtonToolbar className="content-btn">
+                                <Button className="btn-want">Lo quiero</Button>
+                            </ButtonToolbar>
                         </Col>
                         <Col sm={2} md={2} className="fourth-column">
                             <div className="title-fourth">Empresa</div>
+                            <div className="content-column">Sin caducidad</div>
+                            <div className="content-column">1</div>
+                            <div className="content-column">2</div>
+                            <div className="content-column">5</div>
+                            <div className="content-column">Año 2015</div>
+                            <div className="content-column">Sí</div>
+                            <div className="content-column">Imagen resultados</div>
+                            <div className="content-column">Imagen matriz origen/destino</div>
+                            <div className="content-column">Excel resultados</div>
+                            <div className="content-column">Excel matriz origen/destino</div>
+                            <ButtonToolbar className="content-btn">
+                                <Button className="btn-want">Lo quiero</Button>
+                            </ButtonToolbar>
                         </Col>
                         <Col sm={2} md={2} className="fifth-column">
                             <div className="title-fifth">Personalizado</div>
+                            <div className="content-column-fifth">On demand</div>
+                            <div className="content-column-fifth">Tailor made</div>
+                            <div className="content-column-fifth">Tailor made</div>
+                            <div className="content-column-fifth">Tailor made</div>
+                            <div className="content-column-fifth">On demand</div>
+                            <div className="content-column-fifth">Sí</div>
+                            <div className="content-column-fifth">Imagen resultados</div>
+                            <div className="content-column-fifth">Imagen matriz origen/destino</div>
+                            <div className="content-column-fifth">Excel resultados</div>
+                            <div className="content-column-fifth">Excel resultados</div>
+                            <ButtonToolbar className="content-btn">
+                                <Button className="btn-want-fifth">Lo quiero</Button>
+                            </ButtonToolbar>
                         </Col>
                     </Row>
                 </Grid>
