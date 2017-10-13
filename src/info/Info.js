@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-
 import './Info.css';
+
 
 class Info extends Component {
     render() {
@@ -48,15 +48,15 @@ class Info extends Component {
                     <Grid className="icon-info">
                         <Row>
                             <Col xs={12} md={4}>
-                                <Image src="http://via.placeholder.com/150x150" />
+                                <Image className="icon" src="/img/icon/icono1x2.png" />
                                 <div className="icon-text">Información actualizada de todos los días, de todo el año</div>
                             </Col>
                             <Col xs={12} md={4}>
-                                <Image src="http://via.placeholder.com/150x150" />
+                                <Image className="icon" src="/img/icon/icono2x2.png" />
                                 <div className="icon-text">Mayores muestras al instante</div>
                             </Col>
                             <Col xs={12} md={4}>
-                                <Image src="http://via.placeholder.com/150x150" />
+                                <Image className="icon" src="/img/icon/icono3x2.png" />
                                 <div className="icon-text">Simple y práctico</div>
                             </Col>
                         </Row>
