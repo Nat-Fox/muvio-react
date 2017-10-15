@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, ListGroup, ListGroupItem, ButtonToolbar, Button } from 'react-bootstrap';
+import { Grid, Row, Col, ButtonToolbar, Button } from 'react-bootstrap';
 import './Plan.css';
 
 class Plan extends Component {

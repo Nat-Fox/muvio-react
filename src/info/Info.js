@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Image } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
+
+import Features from '../feature/Features';
+import featuresConfig from './featuresConfig';
+
+import Icons from '../icon/Icons';
+import iconConfig from './iconConfig';
+
 import './Info.css';
 
 
@@ -45,60 +52,11 @@ class Info extends Component {
                 </div>
 
                 <div className="content-icon">
-                    <Grid className="icon-info">
-                        <Row>
-                            <Col xs={12} md={4}>
-                                <Image className="icon" src="/img/icon/icono1x2.png" />
-                                <div className="icon-text">Información actualizada de todos los días, de todo el año</div>
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Image className="icon" src="/img/icon/icono2x2.png" />
-                                <div className="icon-text">Mayores muestras al instante</div>
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Image className="icon" src="/img/icon/icono3x2.png" />
-                                <div className="icon-text">Simple y práctico</div>
-                            </Col>
-                        </Row>
-                    </Grid>
+                    <Icons elements={iconConfig} />
                 </div>
 
                 <div className="info-graph">
-                    <Grid>
-                        <Row>
-                            <Col xs={12} md={4}>
-                                <div className="title">Información clave en un solo lugar</div>
-                                <div className="text-graph">
-                                    Analiza patrones y peaks de viajes dentro de una ciudad o entre ellas. Visualiza comportamientos de viajes en un período de tiempo entre el origen y destino que escojas.
-                                </div>
-                            </Col>
-                            <Col xs={12} md={8}>
-                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} md={4}>
-                                <div className="title">Resultados a tu medida</div>
-                                <div className="text-graph">
-                                    Personaliza tu consulta escogiendo período de tiempo, origen y destino que deseas visualizar.
-                                </div>
-                            </Col>
-                            <Col xs={12} md={8}>
-                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} md={4}>
-                                <div className="title">Información que se adapta a tus necesidades</div>
-                                <div className="text-graph">
-                                    Descarga gráficos y matrices de movilidad entre origen y destino en formato pdf o excel para integrarlo con tus herramientas de siempre.
-                                </div>
-                            </Col>
-                            <Col xs={12} md={8}>
-                                <Image className="graph-info" src="http://via.placeholder.com/700x350" responsive />
-                            </Col>
-                        </Row>
-                    </Grid>
+                    <Features elements={featuresConfig} />
                 </div>
 
             </div>

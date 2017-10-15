@@ -3,7 +3,7 @@ import {
     Navbar,
     Nav,
     NavItem,
-    NavDropdown, MenuItem, Button, ButtonToolbar, Grid, Row, Col, ResponsiveEmbed
+    Button, ButtonToolbar, Grid, Row, Col
 } from 'react-bootstrap';
 import './Home.css'
 
