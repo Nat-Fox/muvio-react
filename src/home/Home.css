@@ -1,9 +1,14 @@
 .logo {
-    margin: 10px 100px 0px 0px;    
+    margin: 10px 0px 0px 0px;    
 }
 
 .item-nav {    
-    margin: 10px 45px 0px 45px;
+    margin: 15px 45px 0px 45px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
 }
 
 .navbar-default .navbar-nav>li>a { 
@@ -11,11 +16,17 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2.33px;
-    font-weight: 500;        
+    font-weight: 500;   
+    color: #ffffff;     
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #337ab7;
+}
+
+.white-logo {
+    width: 50%;
+    margin: -10px -100px 0px 50px;
 }
 
 .btn-login {
@@ -25,17 +36,37 @@
     background-color: transparent;
     border: 2px solid #31A7E8;
     width: 100px;
+    margin-right: 50px;
+    margin-top: 5px;
 }
 
 .btn-login:hover {
     color: #31A7E8;
 }
 
+.img-ciudad {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;   
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;    
+    z-index: 3;
+}
+
 .text-home {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 250px;
+    margin-top: 35%;
     text-align: center;
     font-size: 32px;
+    position: absolute;
+    z-index: 5;
+    color: #ffffff;
 }
 
 .btn-home {
@@ -43,11 +74,17 @@
     font-size: 14px;
     color: #ffffff;
     background-color: #31A7E8;
+    letter-spacing: 1.16px;
+    font-weight: 500;
+    padding: 10px 35px;
+    border-radius: 1px;
+    border: none;
 }
 
 .btn-home:hover {
     background-color: #337ab7;
     color: #ffffff;
+    border: 1px solid #31A7E8;
 }
 
 .btn-test {
@@ -62,6 +99,15 @@
         margin-top: 120px;
         text-align: center
     }
+    .white-logo {
+        margin-left: 0px;
+    }
+    #btn-login-desktop {
+        display: none;
+    }
+    #btn-home-desktop {
+        display: none;
+    }
 }
 
 /* Tablet */
@@ -69,11 +115,21 @@
     .logo {
         margin: 10px 15px 0px 0px;    
     }
+    .white-logo {
+        margin-left: 0px;
+    }
     .item-nav {
         margin: 10px 5px 0px 5px;
     }
-    .btn-login{
-        width: 70px;
+    #btn-login-desktop {
+        display: none;
+    }
+    .navbar-right {
+        position: absolute;
+        left: 28%;
+    }
+    #btn-home-desktop {
+        display: none;
     }
 }
 

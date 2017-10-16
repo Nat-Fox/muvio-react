@@ -3,7 +3,7 @@ import {
     Navbar,
     Nav,
     NavItem,
-    Button, ButtonToolbar, Grid, Row, Col
+    Button, ButtonToolbar, Grid, Row, Col, Image
 } from 'react-bootstrap';
 import './Home.css'
 
@@ -11,24 +11,24 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar fixedTop collapseOnSelect>
+                <Navbar fixedTop collapseOnSelect fluid>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="#" className="logo">Logo</a>
+                            <a href="http://muvio.cl" className="logo">
+                                <Image className="white-logo" src="./img/nav/logo_muvio_barx2.png" />
+                            </a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
-                        <Nav>
+                        <Nav pullRight>
                             <NavItem className="item-nav" eventKey={1} href="#">BENEFICIOS</NavItem>
                             <NavItem className="item-nav" eventKey={2} href="#">PRODUCTO</NavItem>
                             <NavItem className="item-nav" eventKey={3} href="#">PLANES</NavItem>
                             <NavItem className="item-nav" eventKey={4} href="#">NOSOTROS</NavItem>
-                        </Nav>
-                        <Nav pullRight>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={5} href="#">
                                 <ButtonToolbar>
-                                    <Button className="btn-login">Login</Button>
+                                    <Button id="btn-login-desktop" className="btn-login">Login</Button>
                                 </ButtonToolbar>
                             </NavItem>
                         </Nav>
@@ -36,18 +36,11 @@ class Home extends Component {
                 </Navbar>
 
                 {/* Video */}
+                {/* <video data-autoplay id="video_inicial">
+                    <source src="./img/video/web_compressed.mp4" />
+                </video> */}
 
-                {/* <Grid>
-                    <Row>
-                        <Col xs={12} md={12}>
-                            <div style={{ width: 660, height: 'auto' }}>
-                                <ResponsiveEmbed a16by9>
-                                    <embed type="image/svg+xml" src="/public/video/web_compressed.mp4" />
-                                </ResponsiveEmbed>
-                            </div>
-                        </Col>
-                    </Row>
-                </Grid> */}
+                <Image className="img-ciudad" src="./img/imagen_ciudad.png" />
 
                 <Grid>
                     <Row>
@@ -55,7 +48,7 @@ class Home extends Component {
                             <div className="text-home">
                                 Con Muvio visualiza y descarga viajes en la ciudad de manera rápida, fácil y representativa
                                 <ButtonToolbar className="btn-test">
-                                    <Button className="btn-home">Ir a la versión de prueba</Button>
+                                    <Button href="https://app.muvio.cl/register" className="btn-home" id="btn-home-desktop">Ir a la versión de prueba</Button>
                                 </ButtonToolbar>
                             </div>
                         </Col>

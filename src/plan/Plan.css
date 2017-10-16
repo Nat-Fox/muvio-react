@@ -180,3 +180,122 @@
     color: white;
     border: 1px solid white;    
 }
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    color: black;
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    color: black;    
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;    
+}
+
+.title-plan-responsive {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #173042;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 2.5px;
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+}
+
+.title-plan-row-responsive {
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    white-space: nowrap;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 20px
+}
+
+.second-title-respons {
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    white-space: nowrap;
+    color: #4B4B4B
+}
+
+
+.btn-want-responsive {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;   
+    width: 50%;
+    margin-bottom: 50px;
+    color: #3A3A3A;    
+    letter-spacing: .42px;
+    border: 1px solid #31a7e8;
+    border-radius: 1px;    
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+}
+
+.content-col{
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.item-responsive{
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    color: #3a3a3a;
+    letter-spacing: .42px;
+    line-height: 40px;
+    padding-left: 0;
+    text-align: center;   
+}
+
+.content-btn-want{
+    text-align: center;
+    margin-left: 33%;
+}
+/* Mobile */
+@media only screen and (min-width: 1px) and (max-width: 480px) { 
+    #planes-desktop {
+        display: none;
+    }    
+   
+   
+   
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {   
+    #planes-desktop {
+        display: none;
+    }  
+   
+ 
+
+}
+
+/* Pantallas normales */  
+@media only screen and (min-width: 1025px) and (max-width: 1281px) { 
+    #planes-responsive {
+        display: none;
+    }
+}
+
+/* Pantallas grandes */
+@media only screen and (min-width: 1282px ){ 
+    #planes-responsive {
+        display: none;
+    }
+}

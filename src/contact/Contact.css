@@ -1,3 +1,36 @@
 .content-footer {
-    margin-top: 250px;
+    margin-top: 250px;  
 }
+
+.img-footer {
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.contact {
+    background-color: #34dc8d;
+    height: 59px;   
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    line-height: 59px;
+    font-weight: 600;
+    font-size: 14px;    
+    letter-spacing: .57px;
+}
+
+.btn-contact {
+    font-family: 'Montserrat', sans-serif;    
+    border-radius: 1px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    float: right;
+    margin-top: 12px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.btn-contact:hover {
+    color: #31A7E8;
+    background-color: #ffffff;
+}
+
